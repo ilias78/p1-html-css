@@ -20,7 +20,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  background: #00a8c7;
+  background: #12c3e2;
   justify-content: space-between;
 }
 nav ul {
@@ -33,7 +33,7 @@ nav li {
   padding: 0 4rem 0 4rem;
 }
 nav a {
-  color: white;
+  color: rgb(251, 255, 255);
   text-decoration: none;
 }
 nav img {
@@ -43,6 +43,12 @@ span1{
 color:#00a8c7} 
 span2{
 color:red}
+spanj{
+color: rgb(194, 194, 31);}
+spanp{
+color: purple;}
+spans{
+color: yellowgreen;}
 
 
 

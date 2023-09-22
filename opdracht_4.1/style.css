@@ -3,7 +3,7 @@ h1{
     font-size: 2.4rem;
 }
 h1{
-    color: blue;
+    color: rgb(250, 250, 250);
 }
 h1{
     font-weight: bold;
@@ -27,5 +27,26 @@ font-size: 20px;
     }
     a{
         color: #8A2BE2;
+    }
+    .phone{ background-image: url("./img/pubg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 95.7vw;
+        height: 100vh;
+
+    }
+    .bond{
+        color: rgb(56, 240, 5);
+        font-weight: bold;
+    }
+    article{
+        border-top-style: inset;
+        border-style: outset;
+        border-left: 2px solid black;
+        border-right: 1px solid black;
+       border-radius: 10px;
+     
+      
     }
     

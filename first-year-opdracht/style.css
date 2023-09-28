@@ -7,25 +7,27 @@ html {
   font-size: 62.5%;
 }
 
-
 body {
   font-family: "Goldman", cursive;
+  position: relative;
+  min-height: 100vh;
 }
 
 nav {
   display: flex;
   width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
+  padding: 0.5rem;
+  min-height: 8vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
   background: #12c3e2;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
-  align-items: center ; 
+  align-items: center;
   list-style-type: none;
 }
 nav li {
@@ -39,16 +41,36 @@ nav a {
 nav img {
   width: 5vw;
 }
-span1{
-color:#00a8c7} 
-span2{
-color:red}
-spanj{
-color: rgb(194, 194, 31);}
-spanp{
-color: purple;}
-spans{
-color: yellowgreen;}
+span1 {
+  color: #00a8c7;
+}
+span2 {
+  color: red;
+}
+spanj {
+  color: rgb(194, 194, 31);
+}
+spanp {
+  color: purple;
+}
+spans {
+  color: yellowgreen;
+}
+.background {
+  background-image: url("./img/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.htext{
+  color: rgb(239, 246, 239);
+
+  text-align: center;
+  padding: 24rem;
+  font-size: 3.4rem;
+  }
 
 
 

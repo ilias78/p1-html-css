@@ -1,60 +1,47 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
+html{
   font-size: 62.5%;
 }
-
-body {
-  font-family: "Goldman", cursive;
-  position: relative;
+body{
+  font-family: "Goldman";
   min-height: 100vh;
+  position: relative;
 }
-
-nav {
+nav{
   display: flex;
   width: 100%;
-  padding: 0.5rem;
-  min-height: 8vh;
+  padding: 0;
+  min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  background: #12c3e2;
+  background: #00A8c7;
   justify-content: space-between;
-  position: fixed;
+  position: relative;
+  top: 0;
 }
-nav ul {
+nav ul{
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-nav li {
+nav li{
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
+  float: left;
 }
-nav a {
-  color: rgb(251, 255, 255);
+nav a{
+  color: white;
   text-decoration: none;
+  text-align: center;
+  display: inline-block;
 }
-nav img {
+nav img{
   width: 5vw;
-}
-span1 {
-  color: #00a8c7;
-}
-span2 {
-  color: red;
-}
-spanj {
-  color: rgb(194, 194, 31);
-}
-spanp {
-  color: purple;
-}
-spans {
-  color: yellowgreen;
 }
 .background {
   background-image: url("./img/background.jpeg");
@@ -63,14 +50,41 @@ spans {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+  color: white;
 }
-.htext{
-  color: rgb(239, 246, 239);
-
+h1{
   text-align: center;
-  padding: 24rem;
-  font-size: 3.4rem;
-  }
+}
+.first{
+  padding: 18.4rem;
+}
+.hp{
 
+ font-size: medium;
+position: relative;
+left: 220px;
 
+ 
 
+ }
+ title{
+  font-weight: bold;
+}
+footer{
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #00A8c7;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+}
+.pf{
+  color: white;
+  font-size: 16px;
+}

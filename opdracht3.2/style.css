@@ -1,0 +1,12 @@
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .testb1{
+    background-image: url("./design1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+  }
